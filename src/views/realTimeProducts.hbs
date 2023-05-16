@@ -1,0 +1,31 @@
+<div>
+    <h2> Alta de productos</h2>
+    <form id="create-product-form">
+        <input type="text" name="title" placeholder="Título" />
+        <input type="text" name="description" placeholder="Descripción" />
+        <input type="number" name="price" placeholder="Precio" />
+        <input type="text" name="code" placeholder="Ingresá un código al producto" />
+        <input type="submit" value="Enviar" />
+    </form>
+</div>
+
+<div>
+
+    <h1 class="title">Lista de productos</h1>
+    <table class="product-list" width="100%" border="1" cellspacing="0" cellpadding="6">
+        <tr>
+            <th>Título</th>
+            <th>Descripción</th>
+            <th>Precio</th>
+            <th>Imagen</th>
+        </tr>
+
+        <tbody id="products-table-body">
+
+        </tbody>
+
+    </table>
+
+</div>
+
+<script src="/js/main.js"></script>
